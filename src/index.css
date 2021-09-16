@@ -29,6 +29,8 @@ img {
 }
 
 .horizontal-scroll-wrapper {
+  scroll-snap-type: proximity;
+  scroll-snap-type: y mandatory;
   position: relative;
   overflow-y: auto;
   overflow-x: hidden;
@@ -40,6 +42,7 @@ img {
   text-align: center;
 }
 .horizontal-scroll-wrapper > * {
+  scroll-snap-align: end;
   font-size: 0px;
   top: 0;
   transform: rotate(90deg);
@@ -61,6 +64,10 @@ img {
 
 .h-wind {
   top: 0;
+  height: 82%;
+}
+
+.h-mountain {
   height: 82%;
 }
 
