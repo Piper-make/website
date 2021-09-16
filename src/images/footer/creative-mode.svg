@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="236.872" height="52.876" viewBox="0 0 236.872 52.876">
+  <g id="Group_4921" data-name="Group 4921" transform="translate(-258.65 -6.3)">
+    <rect id="Rectangle_408" data-name="Rectangle 408" width="236.872" height="52.876" rx="7" transform="translate(258.65 6.3)" fill="#51616a"/>
+    <rect id="Rectangle_409" data-name="Rectangle 409" width="187.399" height="40.276" transform="translate(283.974 12.6)" fill="#2b3840"/>
+    <text id="CREATIVE_MODE" data-name="CREATIVE MODE" transform="translate(292.174 39.738)" fill="#e4e4e4" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">CREATIVE MODE</tspan></text>
+    <g id="Group_4922" data-name="Group 4922" transform="translate(477.468 20.1)">
+      <path id="Path_10630" data-name="Path 10630" d="M0,0H18.055" fill="none" stroke="#e4e4e4" stroke-width="1"/>
+      <line id="Line_26" data-name="Line 26" x2="18.055" transform="translate(0 5.504)" fill="none" stroke="#e4e4e4" stroke-width="1"/>
+      <path id="Path_10631" data-name="Path 10631" d="M0,0H18.055" transform="translate(0 11.007)" fill="none" stroke="#e4e4e4" stroke-width="1"/>
+      <line id="Line_27" data-name="Line 27" x2="18.055" transform="translate(0 16.511)" fill="none" stroke="#e4e4e4" stroke-width="1"/>
+      <path id="Path_10632" data-name="Path 10632" d="M0,0H18.055" transform="translate(0 22.015)" fill="none" stroke="#e4e4e4" stroke-width="1"/>
+      <line id="Line_28" data-name="Line 28" x2="18.055" transform="translate(0 27.519)" fill="none" stroke="#e4e4e4" stroke-width="1"/>
+    </g>
+    <g id="Group_4920" data-name="Group 4920" transform="translate(258.65 17.53)">
+      <path id="Path_10644" data-name="Path 10644" d="M0,0H18.055" fill="none" stroke="#e4e4e4" stroke-width="1"/>
+      <line id="Line_32" data-name="Line 32" x2="18.055" transform="translate(0 6.448)" fill="none" stroke="#e4e4e4" stroke-width="1"/>
+      <path id="Path_10645" data-name="Path 10645" d="M0,0H18.055" transform="translate(0 12.896)" fill="none" stroke="#e4e4e4" stroke-width="1"/>
+      <line id="Line_33" data-name="Line 33" x2="18.055" transform="translate(0 19.344)" fill="none" stroke="#e4e4e4" stroke-width="1"/>
+      <path id="Path_10646" data-name="Path 10646" d="M0,0H18.055" transform="translate(0 25.792)" fill="none" stroke="#e4e4e4" stroke-width="1"/>
+      <line id="Line_34" data-name="Line 34" x2="18.055" transform="translate(0 32.241)" fill="none" stroke="#e4e4e4" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

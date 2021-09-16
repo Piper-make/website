@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="204.076" height="46.753" viewBox="0 0 204.076 46.753">
+  <path id="Path_10643" data-name="Path 10643" d="M6.35,0H197.661a6.35,6.35,0,0,1,6.35,6.35V40.4a6.35,6.35,0,0,1-6.35,6.35H6.35A6.35,6.35,0,0,1,0,40.4V6.35A6.35,6.35,0,0,1,6.35,0Z" fill="#ffcd4e"/>
+  <path id="Rectangle_385" data-name="Rectangle 385" d="M0,0H204.076a0,0,0,0,1,0,0V4.769a5.842,5.842,0,0,1-5.842,5.842H5.242A5.242,5.242,0,0,1,0,5.37V0A0,0,0,0,1,0,0Z" transform="translate(0 36.142)" fill="#66615d" opacity="0.43"/>
+  <text id="START_MISSION" data-name="START MISSION" transform="translate(10.5 8.92)" fill="#333" font-size="20" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="10.086" y="19">START MISSION</tspan></text>
+</svg>

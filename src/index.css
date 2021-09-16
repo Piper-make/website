@@ -1,0 +1,567 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+::-webkit-scrollbar-button {
+  width: 2px;
+  height: 2px;
+}
+
+.horizontal-scroll-wrapper {
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 90vh;
+  width: 80vh;
+  height: 100vw;
+  transform: rotate(-90deg);
+  transform-origin: left top;
+  text-align: center;
+}
+.horizontal-scroll-wrapper > * {
+  font-size: 0px;
+  top: 0;
+  transform: rotate(90deg);
+  transform-origin: right top;
+}
+
+.squares {
+  padding: 600px 0 0 0;
+}
+
+.squares > * {
+  width: 80vh;
+  height: 80vh;
+}
+
+.h-earth {
+  height: 52.4%;
+}
+
+.h-wind {
+  top: 0;
+  height: 82%;
+}
+
+.play {
+  margin-left: 26px;
+}
+
+.play2 {
+  margin-left: 18px;
+}
+
+.play3 {
+  margin-left: 22px;
+  width: 55px;
+  margin-top: 21px;
+}
+
+.start {
+  margin-top: 60px;
+  margin-left: 112px;
+  height: 33px;
+}
+
+.info {
+  margin-top: 60px;
+  margin-left: 260px;
+  height: 33px;
+}
+
+.download {
+  margin-top: 60px;
+  margin-left: 297px;
+  height: 33px;
+}
+
+.share {
+  margin-top: 60px;
+  margin-left: 334px;
+  height: 33px;
+}
+
+.textbox {
+  margin-top: 11px;
+  padding-top: 6px;
+  margin-left: 113px;
+  width: 254px;
+  height: 41px;
+  position: absolute;
+}
+
+.dot1 {
+  position: absolute;
+  top: 14%;
+  left: 15.7%;
+  width: 1.2%;
+}
+
+.text1 {
+  position: absolute;
+  top: 13.7%;
+  left: 17.25%;
+  height: 15.15%;
+}
+
+.dot2 {
+  position: absolute;
+  top: 34%;
+  left: 15.7%;
+  width: 1.2%;
+}
+
+.text2 {
+  position: absolute;
+  top: 33.7%;
+  left: 17.25%;
+  height: 15.15%;
+}
+
+.dot3 {
+  position: absolute;
+  top: 54%;
+  left: 15.7%;
+  width: 1.2%;
+}
+
+.text3 {
+  position: absolute;
+  top: 53.7%;
+  left: 17.25%;
+  height: 15.15%;
+}
+
+.welcome-text {
+  position: absolute;
+  top: 20%;
+  right: 12.8%;
+  height: 43%;
+}
+
+.bar1 {
+  position: absolute;
+  top: 21%;
+  right: 7.15%;
+  height: 20%;
+}
+
+.bar2 {
+  position: absolute;
+  top: 44%;
+  right: 7.15%;
+  height: 20%;
+}
+
+.sign-in {
+  position: absolute;
+  top: 23%;
+  right: 2.85%;
+  height: 14%;
+}
+
+.settings {
+  position: absolute;
+  top: 47%;
+  right: 1.7%;
+  height: 14%;
+}
+
+.inventory {
+  position: absolute;
+  top: 41.7%;
+  left: 2%;
+  height: 5%;
+}
+
+.share-icon {
+  position: absolute;
+  top: 41.7%;
+  left: 9.8%;
+  height: 4.2%;
+}
+
+.yellow-box1 {
+  position: absolute;
+  top: 47.5%;
+  left: 2%;
+  height: 3%;
+}
+
+.yellow-box2 {
+  position: absolute;
+  top: 51.3%;
+  left: 2%;
+  height: 3%;
+}
+
+.yellow-box3 {
+  position: absolute;
+  top: 47.5%;
+  left: 2.75%;
+  height: 3%;
+}
+
+.yellow-box4 {
+  position: absolute;
+  top: 51.3%;
+  left: 2.75%;
+  height: 3%;
+}
+
+.yellow-box5 {
+  position: absolute;
+  top: 47.5%;
+  left: 3.5%;
+  height: 3%;
+}
+
+.yellow-box6 {
+  position: absolute;
+  top: 51.3%;
+  left: 3.5%;
+  height: 3%;
+}
+
+.yellow-box7 {
+  position: absolute;
+  top: 47.5%;
+  left: 4.25%;
+  height: 3%;
+}
+
+.yellow-box8 {
+  position: absolute;
+  top: 51.3%;
+  left: 4.25%;
+  height: 3%;
+}
+
+.yellow-box9 {
+  position: absolute;
+  top: 47.5%;
+  left: 5%;
+  height: 3%;
+}
+
+.yellow-box10 {
+  position: absolute;
+  top: 51.3%;
+  left: 5%;
+  height: 3%;
+}
+
+.yellow-box11 {
+  position: absolute;
+  top: 47.5%;
+  left: 5.75%;
+  height: 3%;
+}
+
+.yellow-box12 {
+  position: absolute;
+  top: 51.3%;
+  left: 5.75%;
+  height: 3%;
+}
+
+.yellow-box13 {
+  position: absolute;
+  top: 47.5%;
+  left: 6.5%;
+  height: 3%;
+}
+
+.yellow-box14 {
+  position: absolute;
+  top: 51.3%;
+  left: 6.5%;
+  height: 3%;
+}
+
+.yellow-box15 {
+  position: absolute;
+  top: 47.5%;
+  left: 7.25%;
+  height: 3%;
+}
+
+.yellow-box16 {
+  position: absolute;
+  top: 51.3%;
+  left: 7.25%;
+  height: 3%;
+}
+
+.yellow-box17 {
+  position: absolute;
+  top: 47.5%;
+  left: 8%;
+  height: 3%;
+}
+
+.yellow-box18 {
+  position: absolute;
+  top: 51.3%;
+  left: 8%;
+  height: 3%;
+}
+
+.yellow-box19 {
+  position: absolute;
+  top: 47.5%;
+  left: 8.75%;
+  height: 3%;
+}
+
+.yellow-box20 {
+  position: absolute;
+  top: 51.3%;
+  left: 8.75%;
+  height: 3%;
+}
+
+.yellow-box21 {
+  position: absolute;
+  top: 47.5%;
+  left: 9.5%;
+  height: 3%;
+}
+
+.yellow-box22 {
+  position: absolute;
+  top: 51.3%;
+  left: 9.5%;
+  height: 3%;
+}
+
+.expedition-teleport-menu {
+  position: absolute;
+  top: 41%;
+  left: 35.5%;
+  height: 6%;
+}
+
+.yellow-bar {
+  position: absolute;
+  top: 48%;
+  left: 35.5%;
+  height: 1.7%;
+}
+
+.grey-bar1 {
+  position: absolute;
+  top: 48%;
+  left: 40.75%;
+  height: 1.7%;
+}
+
+.grey-bar2 {
+  position: absolute;
+  top: 48%;
+  left: 46%;
+  height: 1.7%;
+}
+
+.grey-bar3 {
+  position: absolute;
+  top: 48%;
+  left: 51.25%;
+  height: 1.7%;
+}
+
+.grey-bar4 {
+  position: absolute;
+  top: 48%;
+  left: 56.5%;
+  height: 1.7%;
+}
+
+.starter {
+  position: absolute;
+  top: 50.65%;
+  left: 35.5%;
+  height: 4.5%;
+}
+
+.robotics {
+  position: absolute;
+  top: 50.65%;
+  left: 40.75%;
+  height: 4.5%;
+}
+
+.gaming {
+  position: absolute;
+  top: 50.65%;
+  left: 46%;
+  height: 4.5%;
+}
+
+.monthly {
+  position: absolute;
+  top: 50.65%;
+  left: 51.25%;
+  height: 4.5%;
+}
+
+.missions {
+  position: absolute;
+  top: 70%;
+  left: 43%;
+  height: 6%;
+}
+
+.yellow-dot1 {
+  position: absolute;
+  top: 77.8%;
+  left: 41.9%;
+  height: 4%;
+}
+
+.yellow-dot2 {
+  position: absolute;
+  top: 83.6%;
+  left: 41.9%;
+  height: 4%;
+}
+
+.grey-dot1 {
+  position: absolute;
+  top: 89.4%;
+  left: 41.9%;
+  height: 4%;
+}
+
+.grey-dot2 {
+  position: absolute;
+  top: 72%;
+  left: 53%;
+  height: 4%;
+}
+
+.grey-dot3 {
+  position: absolute;
+  top: 77.8%;
+  left: 53%;
+  height: 4%;
+}
+
+.grey-dot4 {
+  position: absolute;
+  top: 83.6%;
+  left: 53%;
+  height: 4%;
+}
+
+.grey-dot5 {
+  position: absolute;
+  top: 89.4%;
+  left: 53%;
+  height: 4%;
+}
+
+.blink {
+  position: absolute;
+  top: 77.8%;
+  left: 43.2%;
+  height: 4%;
+}
+
+.traffic-light {
+  position: absolute;
+  top: 83.6%;
+  left: 43.2%;
+  height: 4%;
+}
+
+.reaction-game {
+  position: absolute;
+  top: 89.4%;
+  left: 43.2%;
+  height: 4%;
+}
+
+.silly-stories {
+  position: absolute;
+  top: 71.5%;
+  left: 54.4%;
+  height: 4%;
+}
+
+.safe-crack {
+  position: absolute;
+  top: 77.8%;
+  left: 54.4%;
+  height: 4%;
+}
+
+.tally {
+  position: absolute;
+  top: 83.6%;
+  left: 54.4%;
+  height: 4%;
+}
+
+.machine-speak {
+  position: absolute;
+  top: 89.4%;
+  left: 54.4%;
+  height: 4%;
+}
+
+.creative-mode {
+  position: absolute;
+  top: 52%;
+  right: 14%;
+  height: 13%;
+}
+
+.storymode {
+  position: absolute;
+  top: 74.5%;
+  right: 9%;
+  height: 13%;
+}
+
+.privacy {
+  position: absolute;
+  bottom: 3%;
+  right: 16.8%;
+  height: 3.7%;
+}
+
+.terms {
+  position: absolute;
+  bottom: 3%;
+  right: 11%;
+  height: 3.7%;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 3%;
+  right: 1%;
+  height: 3.7%;
+}
