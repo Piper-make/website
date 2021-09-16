@@ -41,7 +41,30 @@ img {
   transform-origin: left top;
   text-align: center;
 }
+
+.horizontal-scroll-wrapper-cm {
+  scroll-snap-type: proximity;
+  scroll-snap-type: y mandatory;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 65vh;
+  width: 40vh;
+  height: 100vw;
+  transform: rotate(-90deg);
+  transform-origin: left top;
+  text-align: center;
+}
+
 .horizontal-scroll-wrapper > * {
+  scroll-snap-align: end;
+  font-size: 0px;
+  top: 0;
+  transform: rotate(90deg);
+  transform-origin: right top;
+}
+
+.horizontal-scroll-wrapper-cm > * {
   scroll-snap-align: end;
   font-size: 0px;
   top: 0;
@@ -53,9 +76,18 @@ img {
   padding: 600px 0 0 0;
 }
 
+.squares-cm {
+  padding: 400px 0 0 0;
+}
+
 .squares > * {
   width: 80vh;
   height: 80vh;
+}
+
+.squares-cm > * {
+  width: 40vh;
+  height: 40vh;
 }
 
 .h-earth {
@@ -571,4 +603,42 @@ img {
   bottom: 3%;
   right: 1%;
   height: 3.7%;
+}
+
+.cm-bg {
+  width: 70%;
+  margin-bottom: 28%;
+  height: auto;
+}
+
+.cm-info {
+  position: absolute;
+  top: 13%;
+  right: 9.5%;
+  height: 13%;
+}
+
+.cm-download {
+  position: absolute;
+  top: 30%;
+  right: 9.5%;
+  height: 13%;
+}
+
+.cm-share {
+  position: absolute;
+  top: 47%;
+  right: 9.5%;
+  height: 13%;
+}
+
+.cm-text-bg {
+  position: absolute;
+  bottom: 11%;
+  right: 15%;
+  width: 70%;
+}
+
+.textbox-cm {
+  top: 20%;
 }
